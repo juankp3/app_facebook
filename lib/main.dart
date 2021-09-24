@@ -1,3 +1,4 @@
+import 'package:app_facebook/pages/config/config_page.dart';
 import 'package:app_facebook/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      // home: HomePage(),
+      home: ConfigPage(),
     );
   }
 }
